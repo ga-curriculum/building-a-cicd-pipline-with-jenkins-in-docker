@@ -1,10 +1,8 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Building a CICD Pipeline with Jenkins in Docker</span>
   <span class="subhead">References</span>
 </h1>
 
 ## Lesson references
 
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
+- [Jenkins User Handbook](https://www.jenkins.io/doc/book/)

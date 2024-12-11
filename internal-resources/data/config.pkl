@@ -12,25 +12,33 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "[tktk Headline]"
+  friendlyName = "Building a CICD Pipeline with Jenkins in Docker"
   // This must match the repo name as it appears on GitHub exactly
-  name = "tktk-module-name"
+  name = "building-a-cicd-pipline-with-jenkins-in-docker"
   type = "Lesson"
 }
 
 courses {
+  new {
+    name = "mea"
+    microlessons {
+      mls.setup
+      mls.createYourPipelineProjectInJenkins
+      mls.createYourInitialPipelineAsAJenkinsfile
+      mls.addATestStageToYourPipeline
+      mls.addAFinalDeliverStageToYourPipeline
+    }
+  }
   new {
     // Do not remove this fallback course!
     name = "fallback"
     microlessons {
       // Add microlessons here, in the order they should be delivered
       mls.setup
-      mls.concepts
-      mls.microlesson01
-      // You can make course-specific adjustments using a syntax like this:
-      (mls.microlesson02) {
-        type = "Level Up content"
-      }
+      mls.createYourPipelineProjectInJenkins
+      mls.createYourInitialPipelineAsAJenkinsfile
+      mls.addATestStageToYourPipeline
+      mls.addAFinalDeliverStageToYourPipeline
     }
   }
 }

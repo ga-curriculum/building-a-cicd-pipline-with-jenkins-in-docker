@@ -9,23 +9,32 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+createYourPipelineProjectInJenkins = new Template.Microlesson {
+  friendlyName = "Create Your Pipeline Project in Jenkins"
+  dirName = "create-your-pipeline-project-in-jenkins"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+createYourInitialPipelineAsAJenkinsfile = new Template.Microlesson {
+  friendlyName = "Create Your Initial Pipeline as a Jenkinsfile"
+  dirName = "create-your-initial-pipeline-as-a-jenkinsfile"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+addATestStageToYourPipeline = new Template.Microlesson {
+  friendlyName = "Add a Test Stage to Your Pipeline"
+  dirName = "add-a-test-stage-to-your-pipeline"
   type = "Content"
   videoUrl = ""
 }
+
+addAFinalDeliverStageToYourPipeline = new Template.Microlesson {
+  friendlyName = "Add a Final Deliver Stage to Your Pipeline"
+  dirName = "add-a-final-deliver-stage-to-your-pipeline"
+  type = "Content"
+  videoUrl = ""
+}
+
+

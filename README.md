@@ -1,21 +1,22 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Building a CICD Pipeline with Jenkins in Docker</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+This module provides a practical introduction to creating automated pipelines for continuous integration and delivery with Jenkins and Docker. Students will gain experience connecting source code to Jenkins, defining pipelines in code, and integrating testing and delivery stages. By the end, they’ll understand how to automate software development workflows, ensuring smoother and more reliable deployments.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
-| **Total content**                                   | -- |                                     |
+| Lesson                                                                                                     | Est. Delivery Time | Skills                                                          |
+| ---------------------------------------------------------------------------------------------------------- | :----------------: | --------------------------------------------------------------- |
+| [Setup](./setup/README.md)                                                                                 |       20 min       | Set up the development environment.                             |
+| [Create Your Pipeline Project in Jenkins](./create-your-pipeline-project-in-jenkins/README.md)             |       20 min       | Set up a basic Jenkins pipeline project linked version control. |
+| [Create Your Initial Pipeline as a Jenkinsfile](./create-your-initial-pipeline-as-a-jenkinsfile/README.md) |       15 min       | Define an initial Jenkins pipeline by writing a Jenkinsfile.    |
+| [Add a Test Stage to Your Pipeline](./add-a-test-stage-to-your-pipeline/README.md)                         |       15 min       | Expand your Jenkins pipeline by incorporating a test stage.     |
+| [Add a Final Deliver Stage to Your Pipeline](./add-a-final-deliver-stage-to-your-pipeline/README.md)       |       20 min       | Finalize your Jenkins pipeline with a "Deliver" stage.          |
+| **Total content**                                                                                          |       90 min       |                                                                 |
 
 ## References
 
@@ -25,32 +26,28 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
+- Continuous Integration and Delivery
 
 ### Starter code
 
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
+This lesson requires two separate repositories of starter code. One provides the environment to run Jenkins inside Docker, and the other contains a Node.js and React application that you’ll use to build and test with Jenkins.
 
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
+**Jenkins + Docker Repo:** Sets up your CI/CD environment.
+
+🟢 [Jenkins + Docker Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/building-a-cicd-pipline-with-jenkins-in-docker-starter-code)
+
+**Node.js + React App Repo:** Serves as the application you’ll build, test, and deliver using Jenkins.
+
+🟢 [Node.js + React App Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/simple-node-js-react-npm-app)
 
 ### Solution code
 
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed site
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/simple-node-js-react-npm-app/blob/main/jenkins/Jenkinsfile)
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [MEA - Modern Engineering](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/building-a-cicd-pipline-with-jenkins-in-docker/canvas-landing-pages/mea.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/building-a-cicd-pipline-with-jenkins-in-docker/canvas-landing-pages/fallback.html)
 
 ### Resources
 

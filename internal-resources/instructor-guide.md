@@ -1,11 +1,11 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Building a CICD Pipeline with Jenkins in Docker</span>
   <span class="subhead">Instructor Guide</span>
 </h1>
 
-tktk Information to help instructors deliver this content should be added here. This file should not be removed, even if there is no content to place here immediately, and the following content should be retained regardless of how much content is in this file.
+**Instructor Note:**
 
----
+This lesson can be challenging for students to follow. It can be taught as either a code-along activity or a live demonstration led by the instructor. When planning how to facilitate, consider the students’ skill levels and their familiarity with navigating file systems and working with containers. Adjust your approach accordingly.
 
 🏗️ **Under Construction**
 
