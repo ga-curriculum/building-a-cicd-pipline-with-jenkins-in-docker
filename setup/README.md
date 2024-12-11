@@ -11,7 +11,7 @@ This lesson requires two separate repositories of starter code. One provides the
 
 **Repository:** [building-a-cicd-pipline-with-jenkins-in-docker-starter-code](https://git.generalassemb.ly/modular-curriculum-all-courses/building-a-cicd-pipline-with-jenkins-in-docker-starter-code)
 
-**What This Repo Is For:**  
+**What's in this repo?**  
 This repository sets up a fully functional Jenkins instance inside Docker containers. It includes Docker Compose files that let you choose between pre-built images for a quick start or build-your-own images for more customization. Once running, this environment makes it easy to experiment with CI/CD workflows—creating pipelines, running jobs, and exploring Jenkins features.
 
 ### 1. Fork and clone:
@@ -61,7 +61,7 @@ You now have a Jenkins environment ready for configuring CI/CD tasks.
 
 **Repository:** [simple-node-js-react-npm-app](https://git.generalassemb.ly/modular-curriculum-all-courses/simple-node-js-react-npm-app)
 
-**What This Repo Is For:**  
+**What's in this repo?**  
 This repository provides a simple Node.js and React application as your “application under test.” You will integrate this app into your Jenkins pipeline—running builds, tests, and eventually delivering the application. It’s a basic “Welcome to React” style app, ideal for practicing pipeline stages without complex application logic.
 
 ### 1. Fork and clone:

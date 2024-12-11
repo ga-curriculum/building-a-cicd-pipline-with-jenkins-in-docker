@@ -3,7 +3,7 @@
   <span class="subhead">Add a Final Deliver Stage to Your Pipeline</span>
 </h1>
 
-**Learning Objective:**  By the end of this lesson, students will be able to enhance their Jenkins pipeline by adding a final "Deliver" stage, interact with the application in a running environment, and demonstrate end-to-end pipeline automation.
+**Learning Objective:**  By the end of this lesson, students will be able to expand their Jenkins pipeline by adding a final "Deliver" stage, interact with the application in a running environment, and demonstrate end-to-end pipeline automation.
 
 ## Add a Final Deliver Stage to Your Pipeline
 
@@ -19,7 +19,7 @@ This stage allows you to:
 
 Update the `Jenkinsfile` to include the new **Deliver** stage:
 
-```groovy
+```plaintext
 pipeline {
     agent any
     stages {

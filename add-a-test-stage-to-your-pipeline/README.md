@@ -3,7 +3,7 @@
   <span class="subhead">Add a Test Stage to Your Pipeline</span>
 </h1>
 
-**Learning Objective:** By the end of this lesson, students will be able to enhance their Jenkins pipeline by adding a test stage.
+**Learning Objective:** By the end of this lesson, students will be able to expand their Jenkins pipeline by adding a test stage.
 
 ## Add a Test Stage to Your Pipeline
 
@@ -19,7 +19,7 @@ Adding a test stage to your pipeline allows Jenkins to run your test suite autom
 
 Update the `Jenkinsfile` to include a new **Test** stage. Replace its contents with the following:
 
-```groovy
+```plaintext
 pipeline {
     agent any
     stages {
