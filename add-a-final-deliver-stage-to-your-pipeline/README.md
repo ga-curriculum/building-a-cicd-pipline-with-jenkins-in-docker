@@ -5,7 +5,7 @@
 
 **Learning Objective:**  By the end of this lesson, students will be able to expand their Jenkins pipeline by adding a final "Deliver" stage, interact with the application in a running environment, and demonstrate end-to-end pipeline automation.
 
-## Add a Final Deliver Stage to Your Pipeline
+## Add a final deliver stage to your pipeline
 
 The deliver stage is the final step in your pipeline, where the application is deployed and ready for use.
 
@@ -19,7 +19,7 @@ This stage allows you to:
 
 Update the `Jenkinsfile` to include the new **Deliver** stage:
 
-```plaintext
+```groovy
 pipeline {
     agent any
     stages {
@@ -66,9 +66,9 @@ git push
 1. Go back to Jenkins and log in if necessary.
 2. Trigger a new build by clicking the `Build Now` button.
 
-## Viewing the Application
+## Viewing the application
 
-1. When the pipeline reaches the **Deliver** stage, visit `http://localhost:3000` in your web browser.
+1. When the pipeline reaches the **Deliver** stage, visit [http://localhost:3000](http://localhost:3000) in your web browser.
 2. You should see your Node.js and React application running with the title **Welcome to React**.
 
 > Tip: If you’re feeling a little adventurous, you can make changes to the application directly within the Jenkins Docker container.
@@ -85,7 +85,7 @@ vi App.js
 
 - Edit the `App.js` file using the `vi` editor, save changes, and refresh the browser to see the updates reflected live.
 
-## Completing the Pipeline
+## Completing the pipeline
 
 1. After interacting with the application, return to Jenkins.
 2. Click the **Proceed** button in the Jenkins UI to allow the pipeline to complete its execution.

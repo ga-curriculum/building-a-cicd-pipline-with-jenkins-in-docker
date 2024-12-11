@@ -27,7 +27,7 @@ Now, let’s create your initial Jenkins Pipeline to automate building your appl
 
 Copy the following Declarative Pipeline code and paste it into your empty `Jenkinsfile`:
 
-```plaintext
+```groovy
 pipeline {
     agent any
     stages {

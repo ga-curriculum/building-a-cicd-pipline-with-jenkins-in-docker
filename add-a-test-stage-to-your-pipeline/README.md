@@ -5,7 +5,7 @@
 
 **Learning Objective:** By the end of this lesson, students will be able to expand their Jenkins pipeline by adding a test stage.
 
-## Add a Test Stage to Your Pipeline
+## Add a test stage to your pipeline
 
 Testing is a critical step in the software development lifecycle. By automating tests in your pipeline, you:
 
@@ -19,7 +19,7 @@ Adding a test stage to your pipeline allows Jenkins to run your test suite autom
 
 Update the `Jenkinsfile` to include a new **Test** stage. Replace its contents with the following:
 
-```plaintext
+```groovy
 pipeline {
     agent any
     stages {
