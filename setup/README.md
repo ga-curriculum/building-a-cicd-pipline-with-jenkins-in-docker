@@ -9,7 +9,7 @@ This lesson requires two separate repositories of starter code. One provides the
 
 ## Jenkins + Docker Environment
 
-**Repository:** [building-a-cicd-pipline-with-jenkins-in-docker-starter-code](https://git.generalassemb.ly/modular-curriculum-all-courses/building-a-cicd-pipline-with-jenkins-in-docker-starter-code)
+**Repository:** [building-a-cicd-pipline-with-jenkins-in-docker-starter-code](https://git.generalassemb.ly/modular-curriculum-all-courses/building-a-cicd-pipline-with-jenkins-in-docker-starter)
 
 **What's in this repo?**  
 This repository sets up a fully functional Jenkins instance inside Docker containers. It includes Docker Compose files that let you choose between pre-built images for a quick start or build-your-own images for more customization. Once running, this environment makes it easy to experiment with CI/CD workflows—creating pipelines, running jobs, and exploring Jenkins features.
