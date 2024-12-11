@@ -32,13 +32,9 @@ This module provides a practical introduction to creating automated pipelines fo
 
 This lesson requires two separate repositories of starter code. One provides the environment to run Jenkins inside Docker, and the other contains a Node.js and React application that you’ll use to build and test with Jenkins.
 
-**Jenkins + Docker Repo:** Sets up your CI/CD environment.
+🟢 [Jenkins + Docker Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/building-a-cicd-pipline-with-jenkins-in-docker-starter-code): Sets up your CI/CD environment.
 
-🟢 [Jenkins + Docker Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/building-a-cicd-pipline-with-jenkins-in-docker-starter-code)
-
-**Node.js + React App Repo:** Serves as the application you’ll build, test, and deliver using Jenkins.
-
-🟢 [Node.js + React App Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/simple-node-js-react-npm-app)
+🟢 [Node.js + React App Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/simple-node-js-react-npm-app): Serves as the application you’ll build, test, and deliver using Jenkins.
 
 ### Solution code
 
